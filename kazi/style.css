@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    height: 110vh;
+    background-image: url(PICHA1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+    display: flex;
+}
+
+.logo {
+    color: #ff000f;
+    float: left;
+}
+
+.menu {
+    width: 400;
+    height: 90px;
+    float: left;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 62px;
+    margin-right: 68px;
+    font-size: 16px;
+    display: inline-block;
+    padding: 10 16;
+}
+
+ul a {
+    text-decoration: none;
+    color: #fff000;
+    font-weight: bold;
+    font-family: Arial;
+    padding-top: 5px;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+ul li a:hover {
+    color: #fff;
+}
+
+.form {
+    width: 250px;
+    height: 380px;
+    position: absolute;
+    top: 100px;
+    left: 880px;
+    border-radius: 10px;
+    padding: 25px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8)50%, rgba(0, 0, 0, 0.8)50%);
+}
+
+.form h2 {
+    width: 200px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff000f;
+    background-color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 7px;
+}
+
+.form input {
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-top: none;
+    border-bottom: 1px solid #ff000f;
+    border-left: none;
+    border-right: none;
+    color: #fff;
+    font-size: 16px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+
+.form input :focus {
+    outline: none;
+}
+
+ ::placeholder {
+    color: #fff;
+    font-family: Arial;
+}
+
+.link {
+    width: 240px;
+    height: 30px;
+    background: #ff000f;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #ff000f;
+    transition: 0.4s ease;
+}
+
+.link:hover {
+    background: #fff;
+    color: #ff000f;
+}
